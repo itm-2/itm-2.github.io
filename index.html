@@ -251,8 +251,7 @@
                         <p><strong>문제 정의:</strong> 제조 현장의 사후 정비 한계를 극복하기 위해 LLM을 도입하되, AI의 환각(Hallucination) 현상으로 인한 오진단 및 파이프라인 붕괴를 구조적으로 제어할 수 있는 자율 진단 시스템 설계</p>
                         <p><strong>역할:</strong> AI/ML 엔지니어 (데이터 전처리, 지식망 구축, 프롬프트 코어 로직 설계)</p>
                         <p><strong>결과:</strong> 
-                            <br>- 10,000건의 센서 데이터를 가공하고, 7,000건의 고장 이력을 AI 검색용 자연어 문서(Knowledge Base)로 자동 변환하여 RAG 파이프라인 구축
-                            <br>- LLM의 자체 사칙연산 오류를 막기 위해 추론과 연산 책임을 분리. 검증 도구(<code>calculator</code>) 호출을 필수 가드레일로 설계하고, 후속 서버리스 환경(Lambda, DynamoDB) 연동을 위해 AI의 최종 출력을 순수 JSON으로 규격화하여 시스템 안정성 확보
+                            <br> LLM의 자체 사칙연산 오류를 막기 위해 추론과 연산 책임을 분리. 검증 도구(<code>calculator</code>) 호출을 필수 가드레일로 설계하고, 후속 서버리스 환경(Lambda, DynamoDB) 연동을 위해 AI의 최종 출력을 순수 JSON으로 규격화하여 시스템 안정성 확보
                         </p>
                     </div>
                     <div class="project-links">
